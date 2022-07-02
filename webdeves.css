@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background: palevioletred;
+    padding: 20px;
+}
+.wrapper{
+    position: relative;
+    width: 70%;
+    margin: 80px auto;
+    padding: 40px;
+    background: #333;
+    border-radius: 20px;
+}
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+.logo h1{
+    color: salmon;
+    padding: 10px;
+}
+nav{
+    margin: 0;
+    padding: 0;
+}
+nav ul{
+    margin: 0px;
+    list-style: none;
+}
+nav ul li{
+    display: inline;
+    margin: 5px;
+    padding: 5px;
+}
+li a{
+    text-decoration: none;
+    color: #999;
+    font-size: 16px;
+    font-weight: 550;
+    padding: 10px 0;
+    transition: all 1s ease;
+}
+li a:hover{
+    color: white;
+    border-bottom: 2px solid salmon;
+}
+.account input{
+    margin-right: 40px;
+    padding: 2px 15px;
+    background: inherit;
+    color: white;
+    border: 3px solid salmon;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 540;
+    cursor: pointer;
+    transition: 1s ease;
+}
+.account input:hover{
+    background: lightsalmon;
+    border: 3px solid salmon;
+    padding: 2px 15px;
+}
+.text-block{
+    position: absolute;
+    width: 50%;
+    top: 30%;
+    margin: 20px;
+}
+.text-block h1{
+    color: white;
+    font-size: 2.3rem;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+}
+.text-block h1 span{
+    color: salmon;
+    display: block;
+    margin-bottom: 20px;
+}
+.text-block p{
+    font-size: 12px;
+    color: white;
+    width: 50%;
+    line-height: 18px;
+    margin-bottom: 20px;
+}
+.text-block input{
+    width: 158px;
+    padding: 5px 10px;
+    font-size: 18px;
+    font-weight: bold;
+    background: salmon;
+    border-radius: 15px;
+    border: 0;
+    cursor: pointer;
+    transition: 1s ease;
+}
+.text-block input:hover{
+    background: lightsalmon;
+    padding: 5px 10px;
+}
+.image{
+    position: relative;
+    left: 50%;
+    margin: 40px;
+}
+.image img{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    transform: rotateZ(-30deg);
+}
+.flex-box{
+    width: 65%;
+    padding: 0;
+    display: flex;
+    color: white;
+}
+.flex{
+    margin-right: 10px;
+    width: 30%;
+}
+.flex-box p{
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+.flex-box h4{
+    color: salmon;
+    margin-left: 10px;
+}
